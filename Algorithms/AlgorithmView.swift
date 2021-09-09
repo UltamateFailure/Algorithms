@@ -12,7 +12,9 @@ struct AlgorithmView: View
     var body: some View {
         VStack{
             Text("Title")
-            Image("Image")
+            Image("code example")
+                .resizable()
+                .scaledToFit()
             Text("Alg")
         }
     }
