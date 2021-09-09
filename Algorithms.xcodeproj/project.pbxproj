@@ -11,6 +11,7 @@
 		7B54EC3B26EA45FE0050C79D /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B54EC3A26EA45FE0050C79D /* IntroView.swift */; };
 		7B54EC3D26EA45FF0050C79D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B54EC3C26EA45FF0050C79D /* Assets.xcassets */; };
 		7B54EC4026EA45FF0050C79D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B54EC3F26EA45FF0050C79D /* Preview Assets.xcassets */; };
+		7B54EC4D26EA47460050C79D /* AlgorithmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B54EC4C26EA47460050C79D /* AlgorithmView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		7B54EC3C26EA45FF0050C79D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B54EC3F26EA45FF0050C79D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7B54EC4126EA45FF0050C79D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B54EC4C26EA47460050C79D /* AlgorithmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				7B54EC4826EA46360050C79D /* Resources */,
 				7B54EC3A26EA45FE0050C79D /* IntroView.swift */,
+				7B54EC4C26EA47460050C79D /* AlgorithmView.swift */,
 				7B54EC3E26EA45FF0050C79D /* Preview Content */,
 			);
 			path = Algorithms;
@@ -148,6 +151,7 @@
 			files = (
 				7B54EC3B26EA45FE0050C79D /* IntroView.swift in Sources */,
 				7B54EC3926EA45FE0050C79D /* AlgorithmsApp.swift in Sources */,
+				7B54EC4D26EA47460050C79D /* AlgorithmView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +282,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Algorithms/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Algorithms/Info.plist;
+				INFOPLIST_FILE = Algorithms/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,7 +303,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Algorithms/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Algorithms/Info.plist;
+				INFOPLIST_FILE = Algorithms/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
