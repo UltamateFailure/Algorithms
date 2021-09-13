@@ -33,10 +33,10 @@ private func setupAlgorithm() -> String
 {
     var result : String = " "
     
-    let stepOne = "Print name of the moster"
-      let stepTwo = "Print the name of the custom monster"
-      let stepThree = "Print the data of the method myMonster"
-      let stepFour = "asks for a new name of the moster then prints it"
+    let stepOne = "Prints name of the moster"
+    let stepTwo = "Prints the name of the custom monster"
+    let stepThree = "Prints the data of the method myMonster"
+    let stepFour = "asks for a new name of the moster then prints it"
     
     let title = "My algorithm"
     
