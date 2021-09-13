@@ -18,8 +18,8 @@ struct IntroView: View
                 Image("Algorithm")
                     .resizable()
                     .scaledToFit()
-                Text("PlaceHolder")
-                NavigationLink("Placeholder Link", destination: AlgorithmView())
+                Text("Introdction to algorithms in ap CSP")
+                NavigationLink("My algorithm", destination: AlgorithmView())
             }
         }
     }
